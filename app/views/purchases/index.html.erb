@@ -1,1 +1,4 @@
-Namastê to the World!
+<%= form_tag({action: :upload}, multipart: true) do %>
+  <%= file_field_tag 'purchases_data' %>
+  <%= submit_tag("Upload")%>
+<% end %>

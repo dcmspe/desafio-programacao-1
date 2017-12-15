@@ -175,3 +175,98 @@ Processing by PurchasesController#index as HTML
 Completed 200 OK in 3ms (Views: 2.6ms)
 
 
+Started GET "/" for 127.0.0.1 at 2017-12-15 00:45:08 -0200
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PurchasesController#index as HTML
+  Rendering purchases/index.html.erb
+  Rendered purchases/index.html.erb (8.2ms)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"upload", :controller=>"purchases"}):
+    1: <%= form_tag({action: :upload}, multipart: true) do %>
+    2:   <%= file_field_tag 'purchases_data' %>
+    3: <% end %>
+  
+app/views/purchases/index.html.erb:1:in `_app_views_purchases_index_html_erb__195113410450261285_47337018185240'
+Started GET "/" for 127.0.0.1 at 2017-12-15 00:46:16 -0200
+Processing by PurchasesController#index as HTML
+  Rendering purchases/index.html.erb
+  Rendered purchases/index.html.erb (1.0ms)
+Completed 200 OK in 3ms (Views: 2.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-15 00:55:38 -0200
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PurchasesController#index as HTML
+  Rendering purchases/index.html.erb
+  Rendered purchases/index.html.erb (1.8ms)
+Completed 200 OK in 11ms (Views: 4.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-15 01:02:18 -0200
+Processing by PurchasesController#index as HTML
+  Rendering purchases/index.html.erb
+  Rendered purchases/index.html.erb (0.8ms)
+Completed 200 OK in 4ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/purchases/upload" for 127.0.0.1 at 2017-12-15 01:02:21 -0200
+Processing by PurchasesController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ubw6mVmyKZ/wmjNZgoclo/oVYiWFBTvOr+e6Rgj7SCtkoRKjfcKdmzhjewV2+bC8fPUs+neuiOy1VRzm0U292A==", "commit"=>"Upload"}
+No template found for PurchasesController#upload, rendering head :no_content
+Completed 204 No Content in 7ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/purchases/upload" for 127.0.0.1 at 2017-12-15 01:02:21 -0200
+Processing by PurchasesController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ubw6mVmyKZ/wmjNZgoclo/oVYiWFBTvOr+e6Rgj7SCtkoRKjfcKdmzhjewV2+bC8fPUs+neuiOy1VRzm0U292A==", "commit"=>"Upload"}
+No template found for PurchasesController#upload, rendering head :no_content
+Completed 204 No Content in 7ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/purchases/upload" for 127.0.0.1 at 2017-12-15 01:02:21 -0200
+Processing by PurchasesController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ubw6mVmyKZ/wmjNZgoclo/oVYiWFBTvOr+e6Rgj7SCtkoRKjfcKdmzhjewV2+bC8fPUs+neuiOy1VRzm0U292A==", "commit"=>"Upload"}
+No template found for PurchasesController#upload, rendering head :no_content
+Completed 204 No Content in 6ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/purchases/upload" for 127.0.0.1 at 2017-12-15 01:02:22 -0200
+Processing by PurchasesController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ubw6mVmyKZ/wmjNZgoclo/oVYiWFBTvOr+e6Rgj7SCtkoRKjfcKdmzhjewV2+bC8fPUs+neuiOy1VRzm0U292A==", "commit"=>"Upload"}
+No template found for PurchasesController#upload, rendering head :no_content
+Completed 204 No Content in 6ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/purchases/upload" for 127.0.0.1 at 2017-12-15 01:02:27 -0200
+Processing by PurchasesController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ubw6mVmyKZ/wmjNZgoclo/oVYiWFBTvOr+e6Rgj7SCtkoRKjfcKdmzhjewV2+bC8fPUs+neuiOy1VRzm0U292A==", "commit"=>"Upload"}
+No template found for PurchasesController#upload, rendering head :no_content
+Completed 204 No Content in 8ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/purchases/upload" for 127.0.0.1 at 2017-12-15 01:02:27 -0200
+Processing by PurchasesController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ubw6mVmyKZ/wmjNZgoclo/oVYiWFBTvOr+e6Rgj7SCtkoRKjfcKdmzhjewV2+bC8fPUs+neuiOy1VRzm0U292A==", "commit"=>"Upload"}
+No template found for PurchasesController#upload, rendering head :no_content
+Completed 204 No Content in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-15 01:21:28 -0200
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PurchasesController#index as HTML
+  Rendering purchases/index.html.erb
+  Rendered purchases/index.html.erb (2.1ms)
+Completed 200 OK in 9ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/purchases/upload" for 127.0.0.1 at 2017-12-15 01:21:31 -0200
+Processing by PurchasesController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"T8ns/R7TqjxkypJD0bJ3HWQnK2HbDQueG+Pead9sOpSS1MTHOqMeOKwz2h8lzOIC4sdlvimmuLwBUXjJBtrPZw==", "commit"=>"Upload"}
+Starting the proccess of the file ...
+No template found for PurchasesController#upload, rendering head :no_content
+Completed 204 No Content in 6ms (ActiveRecord: 0.0ms)
+
+
