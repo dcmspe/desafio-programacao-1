@@ -2,3 +2,37 @@
   <%= file_field_tag 'purchases_data' %>
   <%= submit_tag("Upload")%>
 <% end %>
+
+<table>
+  <tr>
+    <th>Purchaser Name</th>
+    <th>Item Description</th>
+    <th>Merchant Name</th>
+    <th>Merchant Address</th>
+    <th>Item Price</th>
+    <th>Purchase Count</th>
+    <th>Total</th>
+  </tr>
+  <% @purchases&.each do |purchase|%>
+    <tr>
+        <td><%= purchase.purchaser.name %></td>
+        <td><%= purchase.item.description %></td>
+        <td><%= purchase.item.merchant.name %></td>
+        <td><%= purchase.item.merchant.address %></td>
+        <td>R$ <%= purchase.item.price %></td>
+        <td><%= purchase.quantity %></td>
+        <td>R$ <%= purchase.item.price * purchase.quantity %></td>
+
+    </tr>
+  <% end %>
+  <tr>
+      <td><b>Total Value:</b></td>
+      <td>----</td>
+      <td>----</td>
+      <td>----</td>
+      <td>----</td>
+      <td>----</td>
+      <td><i><%= @total %></i></td>
+  </tr>
+
+</table>

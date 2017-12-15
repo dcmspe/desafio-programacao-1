@@ -1,4 +1,7 @@
 class PurchasesController < ActionController::Base
+
+  include PurchasesHelper
+
   def index
   end
 
@@ -6,24 +9,22 @@ class PurchasesController < ActionController::Base
 
     Rails.logger.info "Starting the proccess of the file ..."
 
-    File.open(params["purchases_data"].original_filename, 'r') do |file|
-        index = 0
-        while line = file.gets
-            if(index > 0){
-              data = line.split(/\t/)
-              populate(data)
-            }
-            index++
+        File.open(params["purchases_data"].original_filename, 'r') do |file|
+            index = 0
+            while line = file.gets do
+                if index > 0
+                  data = line.split(/\t/)
+                  populate_database(data)
+                end
+                index += 1
+            end
         end
 
-        @purchases = Purchase.all
-        @total = Purchase.sum(:quantity)
+    Rails.logger.info "Finishing the proccess of the file ..."
 
+    @purchases = Purchase.all
+    @total = Purchase.total
 
-    end
+    render :index
   end
-
-  private
-
-  populate
 end
