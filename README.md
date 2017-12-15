@@ -14,6 +14,7 @@
 1. Melhorias à serem feitas:
   - Validação do tipo de arquivo;
   - Evitar duplicidade de Items, Purchases e Merchants;
+  - Dar uma cara mais bonita para a aplicação;
   - Implementar autenticação:
     - Se possível, usando O'Auth
 
