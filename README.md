@@ -11,6 +11,12 @@
   - Tenha o bundler instalado
     - Se já tiver o ruby instalado digite no terminal `$ gem install bundler`
 
+1. Melhorias à serem feitas:
+  - Validação do tipo de arquivo;
+  - Evitar duplicidade de Items, Purchases e Merchants;
+  - Implementar autenticação:
+    - Se possível, usando O'Auth
+
 # Desafio de programação 1
 A idéia deste desafio é nos permitir avaliar melhor as habilidades de candidatos à vagas de programador, de vários níveis.
 
