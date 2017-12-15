@@ -270,3 +270,347 @@ No template found for PurchasesController#upload, rendering head :no_content
 Completed 204 No Content in 6ms (ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2017-12-15 04:20:07 -0200
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PurchasesController#index as HTML
+  Rendering purchases/index.html.erb
+  Rendered purchases/index.html.erb (1.9ms)
+Completed 200 OK in 10ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/purchases/upload" for 127.0.0.1 at 2017-12-15 04:20:10 -0200
+Processing by PurchasesController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/Z7yqTGNPmQ5JgFRCpJ5F+TwXqAt6JOWphn5UWXg05Qgg9qTFf2KYPHfSQ3+7OwIYhAQf99DILS8q1/xvFYmZw==", "commit"=>"Upload"}
+Starting the proccess of the file ...
+No template found for PurchasesController#upload, rendering head :no_content
+Completed 204 No Content in 5ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/purchases/upload" for 127.0.0.1 at 2017-12-15 04:20:18 -0200
+Processing by PurchasesController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/Z7yqTGNPmQ5JgFRCpJ5F+TwXqAt6JOWphn5UWXg05Qgg9qTFf2KYPHfSQ3+7OwIYhAQf99DILS8q1/xvFYmZw==", "commit"=>"Upload"}
+Starting the proccess of the file ...
+No template found for PurchasesController#upload, rendering head :no_content
+Completed 204 No Content in 6ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/purchases/upload" for 127.0.0.1 at 2017-12-15 04:20:18 -0200
+Processing by PurchasesController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/Z7yqTGNPmQ5JgFRCpJ5F+TwXqAt6JOWphn5UWXg05Qgg9qTFf2KYPHfSQ3+7OwIYhAQf99DILS8q1/xvFYmZw==", "commit"=>"Upload"}
+Starting the proccess of the file ...
+No template found for PurchasesController#upload, rendering head :no_content
+Completed 204 No Content in 6ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/purchases/upload" for 127.0.0.1 at 2017-12-15 04:20:18 -0200
+Processing by PurchasesController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/Z7yqTGNPmQ5JgFRCpJ5F+TwXqAt6JOWphn5UWXg05Qgg9qTFf2KYPHfSQ3+7OwIYhAQf99DILS8q1/xvFYmZw==", "commit"=>"Upload"}
+Starting the proccess of the file ...
+No template found for PurchasesController#upload, rendering head :no_content
+Completed 204 No Content in 6ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/purchases/upload" for 127.0.0.1 at 2017-12-15 04:20:18 -0200
+Processing by PurchasesController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/Z7yqTGNPmQ5JgFRCpJ5F+TwXqAt6JOWphn5UWXg05Qgg9qTFf2KYPHfSQ3+7OwIYhAQf99DILS8q1/xvFYmZw==", "commit"=>"Upload"}
+Starting the proccess of the file ...
+No template found for PurchasesController#upload, rendering head :no_content
+Completed 204 No Content in 12ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/purchases/upload" for 127.0.0.1 at 2017-12-15 04:20:19 -0200
+Processing by PurchasesController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/Z7yqTGNPmQ5JgFRCpJ5F+TwXqAt6JOWphn5UWXg05Qgg9qTFf2KYPHfSQ3+7OwIYhAQf99DILS8q1/xvFYmZw==", "commit"=>"Upload"}
+Starting the proccess of the file ...
+No template found for PurchasesController#upload, rendering head :no_content
+Completed 204 No Content in 9ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/purchases/upload" for 127.0.0.1 at 2017-12-15 04:20:19 -0200
+Processing by PurchasesController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/Z7yqTGNPmQ5JgFRCpJ5F+TwXqAt6JOWphn5UWXg05Qgg9qTFf2KYPHfSQ3+7OwIYhAQf99DILS8q1/xvFYmZw==", "commit"=>"Upload"}
+Starting the proccess of the file ...
+No template found for PurchasesController#upload, rendering head :no_content
+Completed 204 No Content in 5ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/purchases/upload" for 127.0.0.1 at 2017-12-15 04:20:19 -0200
+Processing by PurchasesController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/Z7yqTGNPmQ5JgFRCpJ5F+TwXqAt6JOWphn5UWXg05Qgg9qTFf2KYPHfSQ3+7OwIYhAQf99DILS8q1/xvFYmZw==", "commit"=>"Upload"}
+Starting the proccess of the file ...
+No template found for PurchasesController#upload, rendering head :no_content
+Completed 204 No Content in 8ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/purchases/upload" for 127.0.0.1 at 2017-12-15 04:20:19 -0200
+Processing by PurchasesController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/Z7yqTGNPmQ5JgFRCpJ5F+TwXqAt6JOWphn5UWXg05Qgg9qTFf2KYPHfSQ3+7OwIYhAQf99DILS8q1/xvFYmZw==", "commit"=>"Upload"}
+Starting the proccess of the file ...
+No template found for PurchasesController#upload, rendering head :no_content
+Completed 204 No Content in 6ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/purchases/upload" for 127.0.0.1 at 2017-12-15 04:20:19 -0200
+Processing by PurchasesController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/Z7yqTGNPmQ5JgFRCpJ5F+TwXqAt6JOWphn5UWXg05Qgg9qTFf2KYPHfSQ3+7OwIYhAQf99DILS8q1/xvFYmZw==", "commit"=>"Upload"}
+Starting the proccess of the file ...
+No template found for PurchasesController#upload, rendering head :no_content
+Completed 204 No Content in 9ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/purchases/upload" for 127.0.0.1 at 2017-12-15 04:20:20 -0200
+Processing by PurchasesController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/Z7yqTGNPmQ5JgFRCpJ5F+TwXqAt6JOWphn5UWXg05Qgg9qTFf2KYPHfSQ3+7OwIYhAQf99DILS8q1/xvFYmZw==", "commit"=>"Upload"}
+Starting the proccess of the file ...
+No template found for PurchasesController#upload, rendering head :no_content
+Completed 204 No Content in 8ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/purchases/upload" for 127.0.0.1 at 2017-12-15 04:20:50 -0200
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PurchasesController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/Z7yqTGNPmQ5JgFRCpJ5F+TwXqAt6JOWphn5UWXg05Qgg9qTFf2KYPHfSQ3+7OwIYhAQf99DILS8q1/xvFYmZw==", "purchases_data"=>#<ActionDispatch::Http::UploadedFile:0x007f68104e0438 @tempfile=#<Tempfile:/tmp/RackMultipart20171215-17579-14dx09x.tab>, @original_filename="example_input.tab", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"purchases_data\"; filename=\"example_input.tab\"\r\nContent-Type: application/octet-stream\r\n">, "commit"=>"Upload"}
+Starting the proccess of the file ...
+No template found for PurchasesController#upload, rendering head :no_content
+Completed 204 No Content in 8ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/purchases/upload" for 127.0.0.1 at 2017-12-15 04:21:25 -0200
+Processing by PurchasesController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/Z7yqTGNPmQ5JgFRCpJ5F+TwXqAt6JOWphn5UWXg05Qgg9qTFf2KYPHfSQ3+7OwIYhAQf99DILS8q1/xvFYmZw==", "purchases_data"=>#<ActionDispatch::Http::UploadedFile:0x007f68103d5570 @tempfile=#<Tempfile:/tmp/RackMultipart20171215-17579-9458g.tab>, @original_filename="example_input.tab", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"purchases_data\"; filename=\"example_input.tab\"\r\nContent-Type: application/octet-stream\r\n">, "commit"=>"Upload"}
+Starting the proccess of the file ...
+No template found for PurchasesController#upload, rendering head :no_content
+Completed 204 No Content in 1282168ms
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-15 04:42:57 -0200
+Processing by PurchasesController#index as HTML
+  Rendering purchases/index.html.erb
+  Rendered purchases/index.html.erb (1.4ms)
+Completed 200 OK in 5ms (Views: 3.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-15 04:43:06 -0200
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PurchasesController#index as HTML
+  Rendering purchases/index.html.erb
+  Rendered purchases/index.html.erb (1.6ms)
+Completed 200 OK in 9ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/purchases/upload" for 127.0.0.1 at 2017-12-15 04:43:11 -0200
+Processing by PurchasesController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zeUXUalIXuttV84t5Z6jRbQQdOKMD2ANpebc/P/CLP2T6bVQbSK7rvkolRascQOuJ7J3kqqB+e5jNfPpEogu6A==", "purchases_data"=>#<ActionDispatch::Http::UploadedFile:0x0055bb2775d018 @tempfile=#<Tempfile:/tmp/RackMultipart20171215-19249-djv0yz.tab>, @original_filename="example_input.tab", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"purchases_data\"; filename=\"example_input.tab\"\r\nContent-Type: application/octet-stream\r\n">, "commit"=>"Upload"}
+Starting the proccess of the file ...
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of nil into String):
+  
+app/controllers/purchases_controller.rb:9:in `initialize'
+app/controllers/purchases_controller.rb:9:in `open'
+app/controllers/purchases_controller.rb:9:in `upload'
+Started POST "/purchases/upload" for 127.0.0.1 at 2017-12-15 04:43:44 -0200
+Processing by PurchasesController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zeUXUalIXuttV84t5Z6jRbQQdOKMD2ANpebc/P/CLP2T6bVQbSK7rvkolRascQOuJ7J3kqqB+e5jNfPpEogu6A==", "purchases_data"=>#<ActionDispatch::Http::UploadedFile:0x0055bb275e06b8 @tempfile=#<Tempfile:/tmp/RackMultipart20171215-19249-ybeklo.tab>, @original_filename="example_input.tab", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"purchases_data\"; filename=\"example_input.tab\"\r\nContent-Type: application/octet-stream\r\n">, "commit"=>"Upload"}
+Starting the proccess of the file ...
+Completed 500 Internal Server Error in 248864ms
+
+
+  
+SystemExit (exit):
+  
+(byebug):1:in `exit'
+(byebug):1:in `upload'
+app/controllers/purchases_controller.rb:9:in `upload'
+Started GET "/" for 127.0.0.1 at 2017-12-15 04:48:11 -0200
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PurchasesController#index as HTML
+  Rendering purchases/index.html.erb
+  Rendered purchases/index.html.erb (6.4ms)
+Completed 200 OK in 13ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/purchases/upload" for 127.0.0.1 at 2017-12-15 04:48:17 -0200
+Processing by PurchasesController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZFdD6IhaBPay/+7+9c7dd3iUswv0gfbAuuLjY8ClrpM6W+HpTDDhsyaAtcW8IX2c6zawe9IPbyN8Mcx2Le+shg==", "purchases_data"=>#<ActionDispatch::Http::UploadedFile:0x007fa09047fd78 @tempfile=#<Tempfile:/tmp/RackMultipart20171215-19490-p95qpp.tab>, @original_filename="example_input.tab", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"purchases_data\"; filename=\"example_input.tab\"\r\nContent-Type: application/octet-stream\r\n">, "commit"=>"Upload"}
+Starting the proccess of the file ...
+Completed 500 Internal Server Error in 131147ms (ActiveRecord: 0.0ms)
+
+
+  
+SystemExit (exit):
+  
+(byebug):1:in `exit'
+(byebug):1:in `block in upload'
+app/controllers/purchases_controller.rb:11:in `block in upload'
+app/controllers/purchases_controller.rb:9:in `open'
+app/controllers/purchases_controller.rb:9:in `upload'
+Started POST "/purchases/upload" for 127.0.0.1 at 2017-12-15 04:51:31 -0200
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PurchasesController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZFdD6IhaBPay/+7+9c7dd3iUswv0gfbAuuLjY8ClrpM6W+HpTDDhsyaAtcW8IX2c6zawe9IPbyN8Mcx2Le+shg==", "purchases_data"=>#<ActionDispatch::Http::UploadedFile:0x007f12f84df410 @tempfile=#<Tempfile:/tmp/RackMultipart20171215-19674-1hhxq9u.tab>, @original_filename="example_input.tab", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"purchases_data\"; filename=\"example_input.tab\"\r\nContent-Type: application/octet-stream\r\n">, "commit"=>"Upload"}
+Starting the proccess of the file ...
+Completed 500 Internal Server Error in 150960ms (ActiveRecord: 0.0ms)
+
+
+  
+SystemExit (exit):
+  
+(byebug):1:in `exit'
+(byebug):1:in `block in upload'
+app/controllers/purchases_controller.rb:11:in `block in upload'
+app/controllers/purchases_controller.rb:9:in `open'
+app/controllers/purchases_controller.rb:9:in `upload'
+Started GET "/purchases" for 127.0.0.1 at 2017-12-15 04:54:30 -0200
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/purchases"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/purchases/upload" for 127.0.0.1 at 2017-12-15 04:54:44 -0200
+  
+ActionController::RoutingError (No route matches [GET] "/purchases/upload"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started POST "/purchases/upload" for 127.0.0.1 at 2017-12-15 04:54:51 -0200
+Processing by PurchasesController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZFdD6IhaBPay/+7+9c7dd3iUswv0gfbAuuLjY8ClrpM6W+HpTDDhsyaAtcW8IX2c6zawe9IPbyN8Mcx2Le+shg==", "purchases_data"=>#<ActionDispatch::Http::UploadedFile:0x0055b6d223ad50 @tempfile=#<Tempfile:/tmp/RackMultipart20171215-19846-uze28x.tab>, @original_filename="example_input.tab", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"purchases_data\"; filename=\"example_input.tab\"\r\nContent-Type: application/octet-stream\r\n">, "commit"=>"Upload"}
+Starting the proccess of the file ...
+Completed 500 Internal Server Error in 90381ms (ActiveRecord: 0.0ms)
+
+
+  
+SystemExit (exit):
+  
+(byebug):1:in `exit'
+(byebug):1:in `block in upload'
+app/controllers/purchases_controller.rb:12:in `block in upload'
+app/controllers/purchases_controller.rb:9:in `open'
+app/controllers/purchases_controller.rb:9:in `upload'
+Started POST "/purchases/upload" for 127.0.0.1 at 2017-12-15 04:56:39 -0200
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PurchasesController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZFdD6IhaBPay/+7+9c7dd3iUswv0gfbAuuLjY8ClrpM6W+HpTDDhsyaAtcW8IX2c6zawe9IPbyN8Mcx2Le+shg==", "purchases_data"=>#<ActionDispatch::Http::UploadedFile:0x0055c1ecc65468 @tempfile=#<Tempfile:/tmp/RackMultipart20171215-20005-hjbe10.tab>, @original_filename="example_input.tab", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"purchases_data\"; filename=\"example_input.tab\"\r\nContent-Type: application/octet-stream\r\n">, "commit"=>"Upload"}
+Starting the proccess of the file ...
+Completed 500 Internal Server Error in 360691ms (ActiveRecord: 0.0ms)
+
+
+  
+SystemExit (exit):
+  
+(byebug):1:in `exit'
+(byebug):1:in `block in upload'
+app/controllers/purchases_controller.rb:12:in `block in upload'
+app/controllers/purchases_controller.rb:9:in `open'
+app/controllers/purchases_controller.rb:9:in `upload'
+Started GET "/" for 127.0.0.1 at 2017-12-15 05:02:55 -0200
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PurchasesController#index as HTML
+  Rendering purchases/index.html.erb
+  Rendered purchases/index.html.erb (1.3ms)
+Completed 200 OK in 8ms (Views: 3.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/purchases/upload" for 127.0.0.1 at 2017-12-15 05:03:00 -0200
+Processing by PurchasesController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5wBJjN4ZcrdjTyyl/6pDzeNidgAuAPw7gOg3Obtahgm5DOuNGnOX8vcwd562ReMmcMB1cAiOZdhGOxgsVhCEHA==", "purchases_data"=>#<ActionDispatch::Http::UploadedFile:0x007f38c406fde8 @tempfile=#<Tempfile:/tmp/RackMultipart20171215-20365-11rhp8g.tab>, @original_filename="example_input.tab", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"purchases_data\"; filename=\"example_input.tab\"\r\nContent-Type: application/octet-stream\r\n">, "commit"=>"Upload"}
+Starting the proccess of the file ...
+Completed 500 Internal Server Error in 70629ms (ActiveRecord: 0.0ms)
+
+
+  
+SystemExit (exit):
+  
+(byebug):1:in `exit'
+(byebug):1:in `block in upload'
+app/controllers/purchases_controller.rb:12:in `block in upload'
+app/controllers/purchases_controller.rb:9:in `open'
+app/controllers/purchases_controller.rb:9:in `upload'
+Started GET "/" for 127.0.0.1 at 2017-12-15 05:04:20 -0200
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PurchasesController#index as HTML
+  Rendering purchases/index.html.erb
+  Rendered purchases/index.html.erb (1.4ms)
+Completed 200 OK in 8ms (Views: 3.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/purchases/upload" for 127.0.0.1 at 2017-12-15 05:04:22 -0200
+Processing by PurchasesController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0J5y+BEj87JIQ7Uw5zFOfQaGengad9wxHJWE5tItxSaOktD51UkW99w87guu3u6WlSR5CDz5RdLaRqvzP2fHMw==", "commit"=>"Upload"}
+Starting the proccess of the file ...
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `original_filename' for nil:NilClass):
+  
+app/controllers/purchases_controller.rb:9:in `upload'
+Started POST "/purchases/upload" for 127.0.0.1 at 2017-12-15 05:04:28 -0200
+Processing by PurchasesController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0J5y+BEj87JIQ7Uw5zFOfQaGengad9wxHJWE5tItxSaOktD51UkW99w87guu3u6WlSR5CDz5RdLaRqvzP2fHMw==", "purchases_data"=>#<ActionDispatch::Http::UploadedFile:0x0055c9c6b61788 @tempfile=#<Tempfile:/tmp/RackMultipart20171215-20555-1pybsg9.tab>, @original_filename="example_input.tab", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"purchases_data\"; filename=\"example_input.tab\"\r\nContent-Type: application/octet-stream\r\n">, "commit"=>"Upload"}
+Starting the proccess of the file ...
+Completed 500 Internal Server Error in 1395574ms (ActiveRecord: 0.0ms)
+
+
+  
+SystemExit (exit):
+  
+(byebug):1:in `exit'
+(byebug):1:in `block in upload'
+app/controllers/purchases_controller.rb:11:in `block in upload'
+app/controllers/purchases_controller.rb:9:in `open'
+app/controllers/purchases_controller.rb:9:in `upload'
