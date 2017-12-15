@@ -1,15 +1,15 @@
 # Instruções para rodar o programa
 
-1. Faça um clone deste projeto e rode os seguintes comando no seu terminal;
+1. Faça um clone deste projeto e rode os seguintes comando no seu terminal:
    - `$ bundle install`
    - `$ rails s`
    - `$ rspec` caso deseje rodar os testes unitários
 
 1. Para garantir que a aplicação funcione corretamento garanta que:
-  - O ruby 2.4.0 esteja instalado;
+  - O ruby 2.4.0 esteja instalado
     - caso não, [clique aqui](https://rvm.io/) e siga as instruções do link
   - Tenha o bundler instalado
-    - Se já tiver o ruby instalado digite no terminal `gem install bundler`
+    - Se já tiver o ruby instalado digite no terminal `$ gem install bundler`
 
 # Desafio de programação 1
 A idéia deste desafio é nos permitir avaliar melhor as habilidades de candidatos à vagas de programador, de vários níveis.
